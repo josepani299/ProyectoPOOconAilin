@@ -1,7 +1,0 @@
-Crear una clase de Triángulo: Desarrolla una clase que almacene los lados de un triángulo y tenga métodos para calcular el área y el perímetro.
-
-Sistema de gestión de empleados: Crea una clase Empleado con atributos como nombre, ID y salario, e implementa métodos para mostrar esta información y aplicar un aumento salarial.
-
-Juego de Adivinanza: Implementa una clase para un juego donde se generan números aleatorios, y el jugador tiene que adivinar el número. La clase puede incluir métodos para iniciar el juego y verificar respuestas.
-Recuerda que lo más importante es entender cómo se utilizan las clases, los objetos y la encapsulación en POO.
-
