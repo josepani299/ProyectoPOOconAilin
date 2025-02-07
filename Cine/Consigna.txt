@@ -1,0 +1,29 @@
+Proyecto: Sistema de gestión de películas (Movie Management System)
+Descripción:
+Este proyecto consiste en crear un sistema para gestionar una colección de películas. El sistema debe permitir:
+Agregar películas: Título, director, género, año de estreno, calificación (de 1 a 5 estrellas).
+Listar películas: Mostrar todas las películas, filtrar por título, director, género, año de estreno, calificación.
+Buscar películas: Buscar películas por título, director o género.
+Modificar películas: Actualizar información de una película existente.
+Eliminar películas: Borrar películas de la colección.
+Guardar y cargar películas: Persistencia de los datos en un archivo.
+Clases:
+Pelicula:
+Atributos: título, director, género, año_estreno, calificación.
+Métodos:
+__init__(self, titulo, director, genero, año_estreno, calificacion): Constructor para inicializar una película.
+get_titulo(self): Devuelve el título de la película.
+get_director(self): Devuelve el director de la película.
+get_genero(self): Devuelve el género de la película.
+get_año_estreno(self): Devuelve el año de estreno de la película.
+get_calificacion(self): Devuelve la calificación de la película.
+Cineteca:
+Atributos: lista de películas (objetos Pelicula).
+Métodos:
+__init__(self, archivo_peliculas="peliculas.txt"): Constructor para inicializar la cineteca (cargar películas desde un archivo).
+agregar_pelicula(self, pelicula): Agrega una nueva película a la lista.
+listar_peliculas(self, filtro=None): Lista las películas, opcionalmente filtrando por título, director, género, año de estreno o calificación.
+buscar_pelicula(self, criterio): Busca películas por título, director o género.
+modificar_pelicula(self, indice, nueva_pelicula): Modifica una película existente.
+eliminar_pelicula(self, indice): Elimina una película de la lista.
+guardar_peliculas(self): Guarda la lista de películas en un archivo.
